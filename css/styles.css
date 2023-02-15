@@ -215,6 +215,18 @@ body {
   font-size: 1em;
 }
 
+.image-portafolio {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+
+.image-portafolio img:hover {
+  cursor: pointer;
+}
+
 .footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -235,17 +247,6 @@ body {
 
 }
 
-.image-portafolio {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  margin-top: 50px;
-  margin-left: 50px;
-  margin-bottom: 50px;
-}
-
-.image-portafolio img:hover {
-  cursor: pointer;
-}
 
 .block .fa-solid {
   font-size: 2.5em;

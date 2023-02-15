@@ -1,0 +1,100 @@
+@media only screen and (max-width: 600px)  {
+  .navbar{
+   position: relative;
+   
+  }
+ 
+ 
+  .navbar .menu-bar{
+   display: block;
+   grid-column: 10/10;
+   font-size: 2em;
+   cursor: pointer;
+  }
+
+  .navbar .menu{
+    position: absolute;
+    width: 70%;
+    height: 30vh;
+    display: grid;
+    align-items: center;
+    background-color: #edcb54;
+    margin-top: 17em;
+    transform: translateX(190%);
+    transition: all 1s;
+   }
+
+   .navbar .menu-toggle{
+    transform: translateX(85%);
+   }
+
+    /* SECTION MAIN FONE*/
+
+  .hero .info-content{
+    grid-column: 2/10;
+    grid-row: 4/7;
+    }
+  
+    /* SECTION DIV FONE*/
+
+  .about{
+    display: flex;
+    flex-direction:  column-reverse;
+    gap: 20px;
+  
+  }
+
+  /* SECTION PHOTO FONE*/
+
+  .image-portafolio{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+
+  }
+
+  .image-portafolio img{
+    width: 70%;
+  }
+
+   /* SECTION FOOTER FONE*/
+
+
+   .footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    background: #181818;
+    color: #fff;
+    height: 120px;
+    align-items: center;
+  }
+   
+  .block {
+    display: flex;
+    background: #edcb54;
+    height: 100%;
+    align-items: center;
+    
+
+}
+
+   .block .fa-solid {
+    font-size: 16px;
+  }
+
+  .block p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    /* font-weight: 600; */
+  }
+
+  .social-medios {
+    display: flex;
+    font-size: 2em;
+    text-align: center;
+  
+  }
+
+}
